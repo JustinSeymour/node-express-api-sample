@@ -1,0 +1,26 @@
+{
+  "name": "node-express-sample-api",
+  "version": "1.0.0",
+  "description": "This sample API using Node.js and Express.js is part of the Dev Shack Coding Academy free content",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm jest",
+    "start": "PORT=3000 nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinSeymour/node-express-api-sample.git"
+  },
+  "author": "Justin Seymour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JustinSeymour/node-express-api-sample/issues"
+  },
+  "homepage": "https://github.com/JustinSeymour/node-express-api-sample#readme",
+  "dependencies": {
+    "express.js": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
